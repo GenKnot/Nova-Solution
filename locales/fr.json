@@ -1,0 +1,32 @@
+{
+  "nav": {
+    "services": "Services",
+    "about": "About",
+    "career": "Career",
+    "blog": "The Nova Solution Blog",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "clientPortal": "Client Portal"
+  },
+  "hero": {
+    "title": "A complete IT department for your business FR",
+    "subtitle": "At Nova Solution, we modernize, secure, and support the IT systems of Quebec's small and medium sized businesses.",
+    "checklist": "Top 10 IT service provider checklist"
+  },
+  "services": {
+    "msp": {
+      "title": "The largest managed IT service provider (MSP) in Greater Montreal",
+      "subtitle": "Since 2003, Nova Solution has been the leader in IT services for Quebec's small and medium sized businesses."
+    },
+    "managed": {
+      "title": "Managed IT Services",
+      "description": "For businesses without an IT team, Nova Solution takes care of all your IT and cybersecurity needs, providing your users with lightning-fast support, industry-leading cybersecurity, and full Office 365 integration for more efficient work.",
+      "cta": "LEARN MORE"
+    },
+    "coManaged": {
+      "title": "Co-Managed IT Services",
+      "description": "Complement your IT department with Nova Solution Technologies. Benefit from our experts and best practices according to your needs in cybersecurity, Cloud & infrastructure management, support, or projects.",
+      "cta": "LEARN MORE"
+    }
+  }
+}
