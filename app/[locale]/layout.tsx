@@ -4,6 +4,7 @@ import {ReactNode} from 'react';
 import '../globals.css';
 import Navbar from "@/components/Navbar";
 import {Metadata} from "next";
+import Footer from "@/components/Footer";
 
 
 const locales = ['en', 'fr'];
@@ -52,6 +53,7 @@ export default async function LocaleLayout({
         <NextIntlClientProvider locale={locale} messages={messages}>
             <Navbar/>
             <main>{children}</main>
+            <Footer />
         </NextIntlClientProvider>
         </body>
         </html>
