@@ -99,7 +99,7 @@ const Services = () => {
     ];
 
     return (
-        <div className="relative py-16 md:py-24 overflow-hidden bg-white">
+        <div id="services" className="relative py-16 md:py-24 overflow-hidden bg-white">
             {/* Background decoration */}
             <div className="absolute top-0 right-0 w-1/6 h-1/6 bg-pink-100 opacity-30 rounded-bl-full"></div>
             <div className="absolute bottom-0 left-0 w-1/8 h-1/8 bg-pink-100 opacity-20 rounded-tr-full"></div>

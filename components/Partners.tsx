@@ -10,7 +10,7 @@ const Partners = () => {
     };
 
     return (
-        <section className="relative py-16 md:py-24 overflow-hidden bg-gradient-to-b from-white to-gray-50">
+        <section id="partners" className="relative py-16 md:py-24 overflow-hidden bg-gradient-to-b from-white to-gray-50">
             {/* Background decorative elements */}
             <div className="absolute top-0 right-0 w-1/4 h-1/4 bg-pink-100 opacity-40 rounded-bl-full"></div>
             <div className="absolute bottom-0 left-0 w-64 h-64 bg-red-50 opacity-30 rounded-tr-full transform -translate-x-1/2 translate-y-1/4"></div>

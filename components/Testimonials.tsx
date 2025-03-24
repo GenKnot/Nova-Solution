@@ -14,7 +14,7 @@ const Testimonials = () => {
             id: 1,
             company: 'CONTEX',
             logo: '/contex-logo.png',
-            quote: 'Our 110 employees are very satisfied with the managed services of S3 Technologies. The response time is very fast and the technicians are competent. In addition, as Controller, I particularly appreciate the complete IT Plan as well as the detailed IT budget of S3.',
+            quote: 'Our 110 employees are very satisfied with the managed services of Nova Solution Technologies. The response time is very fast and the technicians are competent. In addition, as Controller, I particularly appreciate the complete IT Plan as well as the detailed IT budget of Nova Solution.',
             author: 'Jean-Sébastien Haché',
             title: 'Controller'
         },
@@ -22,7 +22,7 @@ const Testimonials = () => {
             id: 2,
             company: 'protégez-vous',
             logo: '/protegez-vous-logo.png',
-            quote: 'S3 provides an invaluable consulting service as well as peace of mind in the day-to-day management of our IT environment and in the continuous improvement of our systems.',
+            quote: 'Nova Solution provides an invaluable consulting service as well as peace of mind in the day-to-day management of our IT environment and in the continuous improvement of our systems.',
             author: 'Anissa Zougarri',
             title: 'Director of human capital & administration'
         },
@@ -30,7 +30,7 @@ const Testimonials = () => {
             id: 3,
             company: 'Le Groupe Maurice',
             logo: '/groupe-maurice-logo.png',
-            quote: 'We appreciate S3\'s proactive approach to cybersecurity and their ability to adapt to our changing needs. Their support has been crucial for our business operations.',
+            quote: 'We appreciate Nova Solution\'s proactive approach to cybersecurity and their ability to adapt to our changing needs. Their support has been crucial for our business operations.',
             author: 'Michel Laurent',
             title: 'CIO'
         },
@@ -38,7 +38,7 @@ const Testimonials = () => {
             id: 4,
             company: 'Avocats Montréal',
             logo: '/avocats-mtl-logo.png',
-            quote: 'S3 Technologies has transformed how our law firm manages sensitive client data. Their cybersecurity protocols give us complete confidence in our digital infrastructure.',
+            quote: 'Nova Solution Technologies has transformed how our law firm manages sensitive client data. Their cybersecurity protocols give us complete confidence in our digital infrastructure.',
             author: 'Sophie Tremblay',
             title: 'Managing Partner'
         },
@@ -46,7 +46,7 @@ const Testimonials = () => {
             id: 5,
             company: 'BioTech Québec',
             logo: '/biotech-logo.png',
-            quote: 'The migration to cloud services led by S3 has improved our collaborative capabilities tenfold. Their expertise with Microsoft 365 and Azure is outstanding.',
+            quote: 'The migration to cloud services led by Nova Solution has improved our collaborative capabilities tenfold. Their expertise with Microsoft 365 and Azure is outstanding.',
             author: 'Pierre Leblanc',
             title: 'Operations Director'
         },
@@ -54,7 +54,7 @@ const Testimonials = () => {
             id: 6,
             company: 'Finance Solutions',
             logo: '/finance-solutions-logo.png',
-            quote: 'As a financial institution, we need absolute reliability in our IT systems. S3 has delivered beyond our expectations, providing 24/7 monitoring and rapid response to any issues.',
+            quote: 'As a financial institution, we need absolute reliability in our IT systems. Nova Solution has delivered beyond our expectations, providing 24/7 monitoring and rapid response to any issues.',
             author: 'Marie Côté',
             title: 'CFO'
         }
@@ -81,7 +81,7 @@ const Testimonials = () => {
     };
 
     return (
-        <section className="relative py-16 md:py-24 bg-gray-900 text-white overflow-hidden">
+        <section id="reviews" className="relative py-16 md:py-24 bg-gray-900 text-white overflow-hidden">
             <div className="absolute top-0 left-0 w-1/3 h-full">
                 <svg width="100%" height="100%" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0,0 L100,100 L150,200 L100,300 L0,400" stroke="white" strokeWidth="1.5" strokeDasharray="5,5" opacity="0.2" />

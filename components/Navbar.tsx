@@ -38,7 +38,7 @@ const Navbar = () => {
                         <Link href={`/${locale}`} className="flex">
                             <Image
                                 src="/logo.svg"
-                                alt="S3 Technologies"
+                                alt="Nova Solution"
                                 width={100}
                                 height={40}
                                 priority
@@ -48,9 +48,10 @@ const Navbar = () => {
 
                     {/* Desktop Navigation */}
                     <nav className="hidden md:flex space-x-8">
+
                         <div className="relative group">
                             <button
-                                className="font-medium text-gray-800 hover:text-red-600 transition-colors flex items-center">
+                                className="font-semibold text-gray-800 hover:text-red-600 transition-colors flex items-center">
                                 {t('services')}
                                 <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                                      xmlns="http://www.w3.org/2000/svg">
@@ -100,16 +101,19 @@ const Navbar = () => {
                                 </Link>
                             </div>
                         </div>
-                        <Link href={`/${locale}/about`}
-                              className="font-medium text-gray-800 hover:text-red-600 transition-colors">
-                            {t('about')}
+
+                        <Link href={`#reviews`}
+                              className="font-semibold text-gray-800 hover:text-red-600 transition-colors">
+                            {t('reviews')}
                         </Link>
-                        <Link href={`/${locale}/career`}
-                              className="font-medium text-gray-800 hover:text-red-600 transition-colors">
-                            {t('career')}
+
+                        <Link href={`#partners`}
+                              className="font-semibold text-gray-800 hover:text-red-600 transition-colors">
+                            {t('partners')}
                         </Link>
-                        <Link href={`/${locale}/faq`}
-                              className="font-medium text-gray-800 hover:text-red-600 transition-colors">
+
+                        <Link href={`#faq`}
+                              className="font-semibold text-gray-800 hover:text-red-600 transition-colors">
                             {t('faq')}
                         </Link>
                     </nav>
@@ -117,9 +121,8 @@ const Navbar = () => {
                     {/* Right side elements */}
                     <div className="flex items-center space-x-4">
                         <Link
-                            href={`/${locale}/contact`}
-                            className="hidden md:inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-red-600 hover:bg-red-700 transition-colors"
-                            target="_blank"
+                            href={`#contact`}
+                            className="uppercase font-semibold hidden md:inline-flex items-center px-4 py-2 border border-transparent text-sm rounded-md text-white bg-red-600 hover:bg-red-700 transition-colors"
                             rel="noopener noreferrer"
                         >
                             {t('contact')}

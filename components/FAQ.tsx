@@ -23,10 +23,10 @@ const FAQ = () => {
     const faqItems = [
         {
             question: 'How long have you been in business?',
-            answer: 'S3 Technologies has been providing IT services to Quebec businesses since 2003. With over 20 years of experience, we have developed deep expertise in managed IT services, cybersecurity, and cloud solutions tailored to the unique needs of small and medium-sized businesses.'
+            answer: 'Nova Solution Technologies has been providing IT services to Quebec businesses since 2003. With over 20 years of experience, we have developed deep expertise in managed IT services, cybersecurity, and cloud solutions tailored to the unique needs of small and medium-sized businesses.'
         },
         {
-            question: 'What\'s a typical client for S3?',
+            question: 'What\'s a typical client for Nova Solution?',
             answer: 'Our typical clients are small to medium-sized businesses with 20-300 employees across various industries in Quebec. We specialize in serving businesses that need comprehensive IT support but may not have the resources for a full in-house IT department, or those looking to complement their existing IT team with specialized expertise.'
         },
         {
@@ -42,13 +42,13 @@ const FAQ = () => {
             answer: 'We provide 24/7 emergency support for critical issues. Our team has established response protocols and guaranteed response times based on the severity of the issue. For clients with managed service agreements, we proactively monitor systems to prevent many emergencies before they occur.'
         },
         {
-            question: 'What makes S3 different from other IT service providers?',
-            answer: 'S3 Technologies stands out through our strategic approach to IT, focusing on both immediate support needs and long-term planning. We offer detailed IT roadmaps and budgets, industry-leading cybersecurity expertise, and a team of certified professionals with experience across diverse business environments. Our 97% client retention rate speaks to our commitment to excellence and customer satisfaction.'
+            question: 'What makes Nova Solution different from other IT service providers?',
+            answer: 'Nova Solution Technologies stands out through our strategic approach to IT, focusing on both immediate support needs and long-term planning. We offer detailed IT roadmaps and budgets, industry-leading cybersecurity expertise, and a team of certified professionals with experience across diverse business environments. Our 97% client retention rate speaks to our commitment to excellence and customer satisfaction.'
         }
     ];
 
     return (
-        <section className="relative py-16 md:py-24 bg-gray-50 overflow-hidden">
+        <section id="faq" className="relative py-16 md:py-24 bg-gray-50 overflow-hidden">
             {/* Background decorative elements */}
             <div className="absolute bottom-0 right-0 w-64 h-64 bg-pink-100 opacity-30 rounded-tl-full"></div>
             <div className="absolute top-0 left-20 w-32 h-32 bg-red-50 opacity-40 rounded-full"></div>
