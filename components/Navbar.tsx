@@ -121,7 +121,7 @@ const Navbar = () => {
                     {/* Right side elements */}
                     <div className="flex items-center space-x-4">
                         <Link
-                            href={`#contact`}
+                            href={`/${locale}/#contact`}
                             className="uppercase font-semibold hidden md:inline-flex items-center px-4 py-2 border border-transparent text-sm rounded-md text-white bg-red-600 hover:bg-red-700 transition-colors"
                             rel="noopener noreferrer"
                         >

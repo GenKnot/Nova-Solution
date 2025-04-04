@@ -11,24 +11,543 @@
     "clientPortal": "Client Portal"
   },
   "hero": {
-    "title": "A complete IT department for your business EN",
+    "title": "A complete IT department for your business",
     "subtitle": "At Nova Solution, we modernize, secure, and support the IT systems of Quebec's small and medium sized businesses.",
     "checklist": "Top 10 IT service provider checklist"
   },
-  "services": {
+  "homeservices": {
     "msp": {
-      "title": "The largest managed IT service provider (MSP) in Greater Montreal",
-      "subtitle": "Since 2024, Nova Solution has been the leader in IT services for Quebec's small and medium sized businesses."
+      "title": "The largest IT service provider in Greater Montreal",
+      "subtitle": "Since 2024, Nova Solution has been a leader in IT services for Quebec's small and medium sized businesses."
     },
     "managed": {
       "title": "Managed IT Services",
-      "description": "For businesses without an IT team, Nova Solution takes care of all your IT and cybersecurity needs, providing your users with lightning-fast support, industry-leading cybersecurity, and full Office 365 integration for more efficient work.",
+      "description": "For businesses without an IT team, Nova Solution takes care of all your IT and cybersecurity needs, providing your users with fast support, advanced security, and complete office productivity integration for more efficient work.",
       "cta": "LEARN MORE"
     },
     "coManaged": {
       "title": "Co-Managed IT Services",
       "description": "Complement your IT department with Nova Solution Technologies. Benefit from our experts and best practices according to your needs in cybersecurity, Cloud & infrastructure management, support, or projects.",
       "cta": "LEARN MORE"
+    },
+    "security": {
+      "title": "Cyber-Security",
+      "description": "Increasingly, Quebec's small and medium sized businesses are targets of cyber attacks. At Nova Solution, cybersecurity is at the heart of everything we do. Our dedicated IT Security team ensures your peace of mind by monitoring and responding to potential threats.",
+      "cta": "LEARN MORE"
+    },
+    "cloud": {
+      "title": "Cloud Services",
+      "description": "Get all the benefits of the cloud with confidence and security. Nova Solution works with leading technology companies to provide cloud solutions that are reliable, secure, and optimized for your business needs.",
+      "cta": "LEARN MORE"
+    }
+  },
+  "testimonials": {
+    "title": "Our Satisfied Customers",
+    "items": [
+      {
+        "company": "CONTEX",
+        "quote": "Our 110 employees are very satisfied with the managed services of Nova Solution Technologies. The response time is very fast and the technicians are competent. In addition, as Controller, I particularly appreciate the complete IT Plan as well as the detailed IT budget of Nova Solution.",
+        "author": "Jean-Sébastien Haché",
+        "title": "Controller"
+      },
+      {
+        "company": "protégez-vous",
+        "quote": "Nova Solution provides an invaluable consulting service as well as peace of mind in the day-to-day management of our IT environment and in the continuous improvement of our systems.",
+        "author": "Anissa Zougarri",
+        "title": "Director of human capital & administration"
+      },
+      {
+        "company": "Le Groupe Maurice",
+        "quote": "We appreciate Nova Solution's proactive approach to cybersecurity and their ability to adapt to our changing needs. Their support has been crucial for our business operations.",
+        "author": "Michel Laurent",
+        "title": "CIO"
+      },
+      {
+        "company": "Avocats Montréal",
+        "quote": "Nova Solution Technologies has transformed how our law firm manages sensitive client data. Their cybersecurity protocols give us complete confidence in our digital infrastructure.",
+        "author": "Sophie Tremblay",
+        "title": "Managing Partner"
+      },
+      {
+        "company": "BioTech Québec",
+        "quote": "The migration to cloud services led by Nova Solution has improved our collaborative capabilities tenfold. Their expertise with cloud technologies is outstanding.",
+        "author": "Pierre Leblanc",
+        "title": "Operations Director"
+      },
+      {
+        "company": "Finance Solutions",
+        "quote": "As a financial institution, we need absolute reliability in our IT systems. Nova Solution has delivered beyond our expectations, providing 24/7 monitoring and rapid response to any issues.",
+        "author": "Marie Côté",
+        "title": "CFO"
+      }
+    ]
+  },
+  "partners": {
+    "title": "Partners",
+    "subtitle": "of choice",
+    "description": "With over 100 employees, Nova Solution is a leading IT service provider serving the greater Montreal area since 2024. Our around-the-clock monitoring ensures your systems stay operational at all times.",
+    "categories": {
+      "enterprise": {
+        "title": "Enterprise Partnerships",
+        "description": "Our strategic alliances with major technology enterprises allow us to implement premier solutions that transform how businesses operate and compete in today's digital world."
+      },
+      "security": {
+        "title": "Security Leaders",
+        "description": "Partnerships with leading cybersecurity providers give our clients access to cutting-edge protection against evolving digital threats, safeguarding critical data and systems."
+      },
+      "cloud": {
+        "title": "Cloud Innovators",
+        "description": "Our cloud partnerships enable businesses to seamlessly migrate, manage, and optimize their environments with unmatched reliability, scalability, and cost-effectiveness."
+      },
+      "infrastructure": {
+        "title": "Infrastructure Experts",
+        "description": "Collaborations with top hardware manufacturers allow us to design and deploy robust, future-proof infrastructure that forms the backbone of modern IT operations."
+      }
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "How long have you been in business?",
+        "answer": "Nova Solution Technologies has been providing IT services to Quebec businesses since 2024. With over 20 years of experience, we have developed deep expertise in managed IT services, cybersecurity, and cloud solutions tailored to the unique needs of small and medium-sized businesses."
+      },
+      {
+        "question": "What's a typical client for Nova Solution?",
+        "answer": "Our typical clients are small to medium-sized businesses with 20-300 employees across various industries in Quebec. We specialize in serving businesses that need comprehensive IT support but may not have the resources for a full in-house IT department, or those looking to complement their existing IT team with specialized expertise."
+      },
+      {
+        "question": "What are your services?",
+        "answer": "We offer a comprehensive range of IT services including Managed IT Services for businesses without an IT team, Co-Managed IT Services to complement existing IT departments, Cybersecurity solutions to protect against modern threats, and Cloud Services with extensive experience in modern cloud technologies. Each service can be tailored to meet your specific business needs."
+      },
+      {
+        "question": "What areas do you serve?",
+        "answer": "We primarily serve businesses in Greater Montreal and throughout Quebec. Our team can provide on-site support within these regions while also offering remote services to clients across the province."
+      },
+      {
+        "question": "How do you handle IT emergencies?",
+        "answer": "We provide 24/7 emergency support for critical issues. Our team has established response protocols and guaranteed response times based on the severity of the issue. For clients with managed service agreements, we proactively monitor systems to prevent many emergencies before they occur."
+      },
+      {
+        "question": "What makes Nova Solution different from other IT service providers?",
+        "answer": "Nova Solution Technologies stands out through our strategic approach to IT, focusing on both immediate support needs and long-term planning. We offer detailed IT roadmaps and budgets, industry-leading cybersecurity expertise, and a team of certified professionals with experience across diverse business environments. Our 97% client retention rate speaks to our commitment to excellence and customer satisfaction."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Looking for a new IT Company?",
+    "subtitle": "Schedule a 30-minute assessment with our experts to:",
+    "points": [
+      "Review your current IT setup.",
+      "Review your current IT issues.",
+      "Discuss your IT needs.",
+      "Confirm if and how Nova Solution can help."
+    ],
+    "form": {
+      "fullName": "Full Name*",
+      "companyName": "Company Name*",
+      "email": "Corporate Email*",
+      "phone": "Phone",
+      "message": "Your Message",
+      "submit": "Submit"
+    },
+    "success": {
+      "title": "Thank You!",
+      "message": "We've received your message and will contact you shortly to schedule your assessment.",
+      "button": "Send Another Message"
+    },
+    "error": "An error occurred. Please try again."
+  },
+  "footer": {
+    "company": {
+      "description": "Since 2024, Nova Solution Technologies has accumulated expertise in managing a wide range of networks, infrastructures and applications.",
+      "contact": "Contact",
+      "phone": "",
+      "email": "info@nova-solution.ca",
+      "country": "Canada",
+      "address": "Montréal, QC H3C 3R7"
+    },
+    "categories": {
+      "services": "Services",
+      "resources": "Resources",
+      "about": "About"
+    },
+    "links": {
+      "managedIT": "Managed IT Services",
+      "coManagedIT": "Co-Managed IT Services",
+      "cyberSecurity": "Cyber-Security",
+      "cloudServices": "Cloud Services",
+      "career": "Career",
+      "blog": "The Nova Solution Blog",
+      "siteMap": "Site Map",
+      "checklist": "Service provider checklist",
+      "privacyPolicy": "Privacy Policy",
+      "faq": "FAQ",
+      "contact": "Contact",
+      "clientPortal": "Client Portal"
+    },
+    "copyright": "© {year} Nova Solution. All rights reserved."
+  },
+  "services": {
+    "managedIT": {
+      "hero": {
+        "title": "Managed IT Services",
+        "subtitle": "Your Complete IT Department",
+        "description": "Let Nova Solution take care of all your IT needs so you can focus on running your business."
+      },
+      "features": {
+        "title": "Why Choose Our Managed IT Services",
+        "subtitle": "We provide a comprehensive suite of IT services designed to keep your business running smoothly",
+        "items": [
+          {
+            "title": "24/7 Monitoring",
+            "description": "Our team monitors your systems around the clock to prevent issues before they impact your business."
+          },
+          {
+            "title": "Help Desk Support",
+            "description": "Fast and reliable support for your team whenever they need assistance with IT issues."
+          },
+          {
+            "title": "Network Management",
+            "description": "Complete management of your network infrastructure, ensuring security and performance."
+          },
+          {
+            "title": "Cybersecurity",
+            "description": "Comprehensive security solutions to protect your business from evolving threats."
+          },
+          {
+            "title": "Cloud Management",
+            "description": "Expert management of your cloud infrastructure for optimal performance and cost efficiency."
+          },
+          {
+            "title": "Strategic IT Planning",
+            "description": "Long-term planning to align your technology with your business goals."
+          }
+        ]
+      },
+      "process": {
+        "title": "Our Managed IT Process",
+        "subtitle": "How we implement and maintain your managed IT services",
+        "steps": [
+          {
+            "title": "Initial Assessment",
+            "description": "We conduct a thorough review of your current IT infrastructure, identifying strengths, weaknesses, and opportunities for improvement."
+          },
+          {
+            "title": "Strategic Planning",
+            "description": "Together, we develop a customized IT strategy aligned with your business goals and budget constraints."
+          },
+          {
+            "title": "Implementation",
+            "description": "Our expert team deploys the necessary solutions while minimizing disruption to your business operations."
+          },
+          {
+            "title": "Ongoing Management",
+            "description": "We proactively monitor and manage your IT systems, providing regular maintenance and updates."
+          },
+          {
+            "title": "Continuous Improvement",
+            "description": "We regularly review performance, security, and efficiency, making adjustments to optimize your IT environment."
+          }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "subtitle": "Get answers to common questions about our Managed IT Services",
+        "items": [
+          {
+            "question": "What size businesses do you typically work with?",
+            "answer": "We work with small to medium-sized businesses with 20-300 employees across various industries."
+          },
+          {
+            "question": "How quickly do you respond to support requests?",
+            "answer": "Our average response time is under 15 minutes, with critical issues receiving immediate attention."
+          },
+          {
+            "question": "Do you provide onsite support or is everything remote?",
+            "answer": "We provide both remote and onsite support based on the nature of the issue and your service agreement."
+          },
+          {
+            "question": "What if we already have some IT staff?",
+            "answer": "We can work alongside your existing IT staff, providing specialized expertise or handling specific aspects of your IT needs."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Ready to transform your IT management?",
+        "subtitle": "Get in touch for a free consultation and see how our Managed IT Services can benefit your business.",
+        "button": "Contact Us Today"
+      }
+    },
+    "coManagedIT": {
+      "hero": {
+        "title": "Co-Managed IT Services",
+        "subtitle": "Strengthen Your IT Team",
+        "description": "Partner with Nova Solution to complement your internal IT department with our specialized expertise."
+      },
+      "features": {
+        "title": "Benefits of Co-Managed IT",
+        "subtitle": "The perfect solution for businesses with existing IT staff who need additional support",
+        "items": [
+          {
+            "title": "Fill Expertise Gaps",
+            "description": "Access specialized skills and knowledge that might be missing from your internal team."
+          },
+          {
+            "title": "Scale On Demand",
+            "description": "Easily scale up support during busy periods or special projects without hiring additional staff."
+          },
+          {
+            "title": "Reduce Burnout",
+            "description": "Provide relief to your internal IT team by offloading routine tasks or after-hours support."
+          },
+          {
+            "title": "Access Advanced Tools",
+            "description": "Utilize our enterprise-grade monitoring, management, and security tools without additional investment."
+          },
+          {
+            "title": "Strategic Partnership",
+            "description": "Gain a strategic partner who can provide guidance on emerging technologies and best practices."
+          },
+          {
+            "title": "Cost Efficiency",
+            "description": "Reduce overall IT costs while improving service levels and capabilities."
+          }
+        ]
+      },
+      "process": {
+        "title": "How Co-Managed IT Works",
+        "subtitle": "A collaborative approach to managing your IT infrastructure",
+        "steps": [
+          {
+            "title": "Needs Assessment",
+            "description": "We meet with your IT team to understand your current setup, challenges, and where you need additional support."
+          },
+          {
+            "title": "Service Definition",
+            "description": "Together, we define which responsibilities will be handled by your team and which by Nova Solution."
+          },
+          {
+            "title": "Integration",
+            "description": "We integrate our tools and processes with your existing systems to ensure seamless collaboration."
+          },
+          {
+            "title": "Knowledge Transfer",
+            "description": "We share knowledge and best practices with your team to enhance their capabilities."
+          },
+          {
+            "title": "Ongoing Collaboration",
+            "description": "We maintain regular communication and adjust our support as your needs evolve."
+          }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "subtitle": "Common questions about our Co-Managed IT Services",
+        "items": [
+          {
+            "question": "Will this replace our existing IT staff?",
+            "answer": "No, our co-managed services are designed to complement and support your existing IT team, not replace them."
+          },
+          {
+            "question": "Can we change the services you provide over time?",
+            "answer": "Absolutely. Our co-managed model is flexible and can evolve as your needs change."
+          },
+          {
+            "question": "How do you handle the transition of responsibilities?",
+            "answer": "We've developed a smooth onboarding process that includes thorough documentation, knowledge transfer, and gradual transition of responsibilities."
+          },
+          {
+            "question": "How do our existing staff collaborate with your team?",
+            "answer": "We establish clear communication channels and processes to ensure effective collaboration between our team and yours."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Strengthen your IT capabilities",
+        "subtitle": "Discover how our Co-Managed IT Services can enhance your internal IT team's effectiveness.",
+        "button": "Schedule a Consultation"
+      }
+    },
+    "cyberSecurity": {
+      "hero": {
+        "title": "Cyber Security Services",
+        "subtitle": "Protect Your Business from Evolving Threats",
+        "description": "Comprehensive security solutions to defend your systems, data, and reputation from cyber threats."
+      },
+      "features": {
+        "title": "Our Cyber Security Solutions",
+        "subtitle": "Multi-layered protection for today's complex threat landscape",
+        "items": [
+          {
+            "title": "Threat Detection & Response",
+            "description": "Advanced systems to detect and neutralize threats before they impact your business."
+          },
+          {
+            "title": "Email Security",
+            "description": "Protection against phishing, malware, and other email-based threats."
+          },
+          {
+            "title": "Endpoint Protection",
+            "description": "Secure all devices connecting to your network with next-generation anti-malware."
+          },
+          {
+            "title": "Security Assessments",
+            "description": "Regular evaluations of your security posture to identify and address vulnerabilities."
+          },
+          {
+            "title": "Employee Training",
+            "description": "Security awareness training to ensure your staff doesn't become the weakest link."
+          },
+          {
+            "title": "Compliance Support",
+            "description": "Help meeting regulatory requirements and industry standards for data security."
+          }
+        ]
+      },
+      "process": {
+        "title": "Our Security Approach",
+        "subtitle": "How we implement and maintain your cyber security defenses",
+        "steps": [
+          {
+            "title": "Security Assessment",
+            "description": "We evaluate your current security posture, identifying vulnerabilities and compliance gaps."
+          },
+          {
+            "title": "Strategic Planning",
+            "description": "We develop a comprehensive security strategy tailored to your specific risks and business needs."
+          },
+          {
+            "title": "Implementation",
+            "description": "We deploy and configure security solutions to protect all aspects of your IT environment."
+          },
+          {
+            "title": "Monitoring & Management",
+            "description": "Continuous monitoring for threats and suspicious activities with rapid response procedures."
+          },
+          {
+            "title": "Testing & Validation",
+            "description": "Regular security testing to ensure your defenses remain effective against evolving threats."
+          }
+        ]
+      },
+      "faq": {
+        "title": "Cyber Security FAQs",
+        "subtitle": "Answers to common questions about our security services",
+        "items": [
+          {
+            "question": "How do you stay current with evolving threats?",
+            "answer": "Our security team undergoes continuous training and certification, and we maintain partnerships with leading security providers to access threat intelligence and the latest protection technologies."
+          },
+          {
+            "question": "What happens if a security breach is detected?",
+            "answer": "We have established incident response procedures that include containment, eradication, recovery, and post-incident review to minimize damage and prevent future occurrences."
+          },
+          {
+            "question": "Do you offer compliance-specific security solutions?",
+            "answer": "Yes, we provide specialized security solutions to help businesses meet various regulatory requirements including GDPR, HIPAA, PCI DSS, and more."
+          },
+          {
+            "question": "How do you measure the effectiveness of security solutions?",
+            "answer": "We use a combination of regular security assessments, penetration testing, and key performance indicators to measure and validate the effectiveness of our security measures."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Don't wait until after a breach",
+        "subtitle": "Proactive security is more cost-effective than recovery. Talk to our experts about protecting your business today.",
+        "button": "Get a Security Assessment"
+      }
+    },
+    "cloud": {
+      "hero": {
+        "title": "Cloud Services",
+        "subtitle": "Transform Your Business with Cloud Technology",
+        "description": "Secure, reliable, and scalable cloud solutions custom-designed for your business needs."
+      },
+      "features": {
+        "title": "Our Cloud Solutions",
+        "subtitle": "Comprehensive cloud services to modernize your IT infrastructure",
+        "items": [
+          {
+            "title": "Cloud Migration",
+            "description": "Seamless transition of your applications, data, and infrastructure to the cloud."
+          },
+          {
+            "title": "Microsoft 365",
+            "description": "Implementation and management of Microsoft's productivity and collaboration suite."
+          },
+          {
+            "title": "Azure Services",
+            "description": "Expert deployment and management of Microsoft Azure cloud solutions."
+          },
+          {
+            "title": "Cloud Security",
+            "description": "Advanced security measures to protect your cloud environment from threats."
+          },
+          {
+            "title": "Backup & Disaster Recovery",
+            "description": "Robust cloud-based backup and recovery solutions to ensure business continuity."
+          },
+          {
+            "title": "Cloud Optimization",
+            "description": "Ongoing assessment and optimization to maximize performance and minimize costs."
+          }
+        ]
+      },
+      "process": {
+        "title": "Our Cloud Methodology",
+        "subtitle": "How we implement and manage your cloud services",
+        "steps": [
+          {
+            "title": "Assessment & Planning",
+            "description": "We evaluate your current infrastructure and develop a strategic cloud adoption plan aligned with your business objectives."
+          },
+          {
+            "title": "Architecture Design",
+            "description": "We design a cloud architecture that optimizes performance, security, and cost-efficiency for your specific needs."
+          },
+          {
+            "title": "Migration & Implementation",
+            "description": "We execute a carefully planned migration to minimize disruption and ensure data integrity."
+          },
+          {
+            "title": "Security Configuration",
+            "description": "We implement comprehensive security measures to protect your cloud environment from threats."
+          },
+          {
+            "title": "Ongoing Management",
+            "description": "We provide continuous monitoring, maintenance, and optimization of your cloud services."
+          }
+        ]
+      },
+      "faq": {
+        "title": "Cloud Services FAQs",
+        "subtitle": "Answers to common questions about our cloud offerings",
+        "items": [
+          {
+            "question": "Is cloud migration right for my business?",
+            "answer": "Most businesses benefit from at least some cloud adoption, but the extent depends on your specific needs. We'll help you evaluate which applications and workloads are best suited for the cloud based on factors like performance requirements, security considerations, and cost analysis."
+          },
+          {
+            "question": "How secure is cloud computing?",
+            "answer": "When properly configured, cloud environments can be more secure than on-premises solutions. We implement industry best practices for cloud security, including encryption, access controls, threat monitoring, and regular security assessments."
+          },
+          {
+            "question": "How do you manage cloud costs?",
+            "answer": "We implement cost optimization strategies including right-sizing resources, leveraging reserved instances, identifying idle resources, and providing regular cost analysis reports with recommendations."
+          },
+          {
+            "question": "What cloud platforms do you support?",
+            "answer": "We primarily specialize in Microsoft Azure and Microsoft 365, but we can also support multi-cloud environments including AWS and Google Cloud Platform based on your business needs."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Ready to harness the power of the cloud?",
+        "subtitle": "Contact us to discover how our cloud solutions can transform your business operations.",
+        "button": "Start Your Cloud Journey"
+      }
     }
   }
 }

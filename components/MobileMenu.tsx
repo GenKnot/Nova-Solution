@@ -193,11 +193,11 @@ const MobileMenu: React.FC<MobileMenuProps> = ({closeMenu}) => {
                     {['about', 'career', 'blog', 'faq', 'contact'].map((item) => (
                         <motion.div key={item} variants={itemVariants}>
                             <Link
-                                href={`/${locale}/${item.toLowerCase()}`}
+                                href={`/${locale}/#contact`}
                                 className="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:text-red-600 hover:bg-gray-50"
                                 onClick={closeMenu}
                             >
-                                {t(item)}
+                                {t('contact')}
                             </Link>
                         </motion.div>
                     ))}

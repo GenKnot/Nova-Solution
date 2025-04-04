@@ -1,34 +1,553 @@
 {
   "nav": {
     "services": "Services",
-    "about": "About",
-    "career": "Career",
-    "partners": "Partners",
-    "reviews": "Reviews",
-    "blog": "The Nova Solution Blog",
+    "about": "À propos",
+    "career": "Carrière",
+    "partners": "Partenaires",
+    "reviews": "Témoignages",
+    "blog": "Le blog Nova Solution",
     "faq": "FAQ",
     "contact": "Contact",
-    "clientPortal": "Client Portal"
+    "clientPortal": "Portail Client"
   },
   "hero": {
-    "title": "A complete IT department for your business FR",
-    "subtitle": "At Nova Solution, we modernize, secure, and support the IT systems of Quebec's small and medium sized businesses.",
-    "checklist": "Top 10 IT service provider checklist"
+    "title": "Un département informatique complet pour votre entreprise",
+    "subtitle": "Chez Nova Solution, nous modernisons, sécurisons et soutenons les systèmes informatiques des petites et moyennes entreprises du Québec.",
+    "checklist": "Liste des 10 meilleurs fournisseurs de services informatiques"
   },
-  "services": {
+  "homeservices": {
     "msp": {
-      "title": "The largest managed IT service provider (MSP) in Greater Montreal",
-      "subtitle": "Since 2024, Nova Solution has been the leader in IT services for Quebec's small and medium sized businesses."
+      "title": "Le plus grand fournisseur de services informatiques du Grand Montréal",
+      "subtitle": "Depuis 2024, Nova Solution est un leader dans les services informatiques pour les petites et moyennes entreprises du Québec."
     },
     "managed": {
-      "title": "Managed IT Services",
-      "description": "For businesses without an IT team, Nova Solution takes care of all your IT and cybersecurity needs, providing your users with lightning-fast support, industry-leading cybersecurity, and full Office 365 integration for more efficient work.",
-      "cta": "LEARN MORE"
+      "title": "Services informatiques gérés",
+      "description": "Pour les entreprises sans équipe informatique, Nova Solution prend en charge tous vos besoins informatiques et de cybersécurité, offrant à vos utilisateurs un support rapide, une sécurité avancée et une intégration complète de la productivité bureautique pour un travail plus efficace.",
+      "cta": "EN SAVOIR PLUS"
     },
     "coManaged": {
-      "title": "Co-Managed IT Services",
-      "description": "Complement your IT department with Nova Solution Technologies. Benefit from our experts and best practices according to your needs in cybersecurity, Cloud & infrastructure management, support, or projects.",
-      "cta": "LEARN MORE"
+      "title": "Services informatiques cogérés",
+      "description": "Complétez votre département informatique avec Nova Solution Technologies. Bénéficiez de nos experts et meilleures pratiques selon vos besoins en cybersécurité, gestion d'infrastructure Cloud, support ou projets.",
+      "cta": "EN SAVOIR PLUS"
+    },
+    "security": {
+      "title": "Cybersécurité",
+      "description": "De plus en plus, les petites et moyennes entreprises du Québec sont la cible de cyberattaques. Chez Nova Solution, la cybersécurité est au cœur de tout ce que nous faisons. Notre équipe dédiée à la sécurité informatique assure votre tranquillité d'esprit en surveillant et en réagissant à toute menace potentielle.",
+      "cta": "EN SAVOIR PLUS"
+    },
+    "cloud": {
+      "title": "Services Cloud",
+      "description": "Obtenez tous les avantages du cloud en toute confiance et sécurité. Nova Solution travaille avec des entreprises technologiques de premier plan pour fournir des solutions cloud fiables, sécurisées et optimisées pour les besoins de votre entreprise.",
+      "cta": "EN SAVOIR PLUS"
+    }
+  },
+  "testimonials": {
+    "title": "Nos clients satisfaits",
+    "items": [
+      {
+        "company": "CONTEX",
+        "quote": "Nos 110 employés sont très satisfaits des services gérés de Nova Solution Technologies. Le temps de réponse est très rapide et les techniciens sont compétents. De plus, en tant que contrôleur, j'apprécie particulièrement le plan informatique complet ainsi que le budget informatique détaillé de Nova Solution.",
+        "author": "Jean-Sébastien Haché",
+        "title": "Contrôleur"
+      },
+      {
+        "company": "protégez-vous",
+        "quote": "Nova Solution fournit un service de conseil inestimable ainsi qu'une tranquillité d'esprit dans la gestion quotidienne de notre environnement informatique et dans l'amélioration continue de nos systèmes.",
+        "author": "Anissa Zougarri",
+        "title": "Directrice du capital humain et de l'administration"
+      },
+      {
+        "company": "Le Groupe Maurice",
+        "quote": "Nous apprécions l'approche proactive de Nova Solution en matière de cybersécurité et sa capacité à s'adapter à nos besoins changeants. Leur soutien a été crucial pour nos opérations commerciales.",
+        "author": "Michel Laurent",
+        "title": "DSI"
+      },
+      {
+        "company": "Avocats Montréal",
+        "quote": "Nova Solution Technologies a transformé la façon dont notre cabinet d'avocats gère les données sensibles des clients. Leurs protocoles de cybersécurité nous donnent une confiance totale dans notre infrastructure numérique.",
+        "author": "Sophie Tremblay",
+        "title": "Associée directrice"
+      },
+      {
+        "company": "BioTech Québec",
+        "quote": "La migration vers les services cloud dirigée par Nova Solution a amélioré nos capacités de collaboration par dix. Leur expertise avec les technologies cloud est exceptionnelle.",
+        "author": "Pierre Leblanc",
+        "title": "Directeur des opérations"
+      },
+      {
+        "company": "Finance Solutions",
+        "quote": "En tant qu'institution financière, nous avons besoin d'une fiabilité absolue dans nos systèmes informatiques. Nova Solution a dépassé nos attentes, fournissant une surveillance 24/7 et une réponse rapide à tout problème.",
+        "author": "Marie Côté",
+        "title": "Directrice financière"
+      }
+    ]
+  },
+  "partners": {
+    "title": "Partenaires",
+    "subtitle": "de choix",
+    "description": "Avec plus de 100 employés, Nova Solution est un fournisseur de services informatiques de premier plan desservant la région du Grand Montréal depuis 2024. Notre surveillance 24/7 garantit que vos systèmes restent opérationnels en tout temps.",
+    "categories": {
+      "enterprise": {
+        "title": "Partenariats d'entreprise",
+        "description": "Nos alliances stratégiques avec les grandes entreprises technologiques nous permettent de mettre en œuvre des solutions de premier ordre qui transforment la façon dont les entreprises fonctionnent et rivalisent dans le monde numérique d'aujourd'hui."
+      },
+      "security": {
+        "title": "Leaders en sécurité",
+        "description": "Les partenariats avec les principaux fournisseurs de cybersécurité donnent à nos clients accès à une protection de pointe contre les menaces numériques en évolution, protégeant les données et systèmes critiques."
+      },
+      "cloud": {
+        "title": "Innovateurs cloud",
+        "description": "Nos partenariats cloud permettent aux entreprises de migrer, gérer et optimiser leurs environnements en toute transparence avec une fiabilité, une évolutivité et un rapport coût-efficacité inégalés."
+      },
+      "infrastructure": {
+        "title": "Experts en infrastructure",
+        "description": "Les collaborations avec les principaux fabricants de matériel nous permettent de concevoir et de déployer une infrastructure robuste et pérenne qui constitue l'épine dorsale des opérations informatiques modernes."
+      }
+    }
+  },
+  "faq": {
+    "title": "Foire Aux Questions",
+    "items": [
+      {
+        "question": "Depuis combien de temps êtes-vous en activité?",
+        "answer": "Nova Solution Technologies fournit des services informatiques aux entreprises québécoises depuis 2024. Avec plus de 20 ans d'expérience, nous avons développé une expertise approfondie dans les services informatiques gérés, la cybersécurité et les solutions cloud adaptées aux besoins uniques des petites et moyennes entreprises."
+      },
+      {
+        "question": "Quel est un client typique pour Nova Solution?",
+        "answer": "Nos clients typiques sont des petites et moyennes entreprises de 20 à 300 employés dans diverses industries au Québec. Nous nous spécialisons dans le service aux entreprises qui ont besoin d'un support informatique complet mais qui n'ont peut-être pas les ressources pour un département informatique interne complet, ou celles qui cherchent à compléter leur équipe informatique existante avec une expertise spécialisée."
+      },
+      {
+        "question": "Quels sont vos services?",
+        "answer": "Nous offrons une gamme complète de services informatiques, notamment des services informatiques gérés pour les entreprises sans équipe informatique, des services informatiques cogérés pour compléter les départements informatiques existants, des solutions de cybersécurité pour protéger contre les menaces modernes et des services cloud avec une vaste expérience dans les technologies cloud modernes. Chaque service peut être adapté pour répondre à vos besoins commerciaux spécifiques."
+      },
+      {
+        "question": "Quelles zones desservez-vous?",
+        "answer": "Nous servons principalement les entreprises du Grand Montréal et de tout le Québec. Notre équipe peut fournir un support sur site dans ces régions tout en offrant des services à distance aux clients de toute la province."
+      },
+      {
+        "question": "Comment gérez-vous les urgences informatiques?",
+        "answer": "Nous fournissons un support d'urgence 24/7 pour les problèmes critiques. Notre équipe a établi des protocoles de réponse et des temps de réponse garantis en fonction de la gravité du problème. Pour les clients ayant des accords de service gérés, nous surveillons de manière proactive les systèmes pour prévenir de nombreuses urgences avant qu'elles ne se produisent."
+      },
+      {
+        "question": "Qu'est-ce qui distingue Nova Solution des autres fournisseurs de services informatiques?",
+        "answer": "Nova Solution Technologies se distingue par son approche stratégique de l'informatique, en se concentrant à la fois sur les besoins de support immédiats et la planification à long terme. Nous offrons des feuilles de route et des budgets informatiques détaillés, une expertise en cybersécurité de premier plan et une équipe de professionnels certifiés avec une expérience dans divers environnements d'entreprise. Notre taux de rétention de clients de 97% témoigne de notre engagement envers l'excellence et la satisfaction client."
+      }
+    ]
+  },
+  "contact": {
+    "title": "À la recherche d'une nouvelle entreprise informatique?",
+    "subtitle": "Planifiez une évaluation de 30 minutes avec nos experts pour:",
+    "points": [
+      "Examiner votre configuration informatique actuelle.",
+      "Examiner vos problèmes informatiques actuels.",
+      "Discuter de vos besoins informatiques.",
+      "Confirmer si et comment Nova Solution peut vous aider."
+    ],
+    "form": {
+      "fullName": "Nom complet*",
+      "companyName": "Nom de l'entreprise*",
+      "email": "Email professionnel*",
+      "phone": "Téléphone",
+      "message": "Votre message",
+      "submit": "Soumettre"
+    },
+    "success": {
+      "title": "Merci!",
+      "message": "Nous avons reçu votre message et vous contacterons sous peu pour planifier votre évaluation.",
+      "button": "Envoyer un autre message"
+    },
+    "error": "Une erreur s'est produite. Veuillez réessayer."
+  },
+  "footer": {
+    "company": {
+      "description": "Depuis 2024, Nova Solution Technologies a accumulé une expertise dans la gestion d'un large éventail de réseaux, d'infrastructures et d'applications.",
+      "contact": "Contact",
+      "phone": "",
+      "email": "info@nova-solution.ca",
+      "country": "Canada",
+      "address": "Montréal, QC H3C 3R7"
+    },
+    "categories": {
+      "services": "Services",
+      "resources": "Ressources",
+      "about": "À propos"
+    },
+    "links": {
+      "managedIT": "Services informatiques gérés",
+      "coManagedIT": "Services informatiques cogérés",
+      "cyberSecurity": "Cybersécurité",
+      "cloudServices": "Services Cloud",
+      "career": "Carrière",
+      "blog": "Le blog Nova Solution",
+      "siteMap": "Plan du site",
+      "checklist": "Liste de contrôle des fournisseurs de services",
+      "privacyPolicy": "Politique de confidentialité",
+      "faq": "FAQ",
+      "contact": "Contact",
+      "clientPortal": "Portail Client"
+    },
+    "copyright": "© {year} Nova Solution. Tous droits réservés."
+  },
+  "services": {
+    "managedIT": {
+      "hero": {
+        "title": "Services informatiques gérés",
+        "subtitle": "Votre département informatique complet",
+        "description": "Laissez Nova Solution s'occuper de tous vos besoins informatiques afin que vous puissiez vous concentrer sur la gestion de votre entreprise."
+      },
+      "features": {
+        "title": "Pourquoi choisir nos services informatiques gérés",
+        "subtitle": "Nous fournissons une suite complète de services informatiques conçus pour assurer le bon fonctionnement de votre entreprise",
+        "items": [
+          {
+            "title": "Surveillance 24/7",
+            "description": "Notre équipe surveille vos systèmes en permanence pour prévenir les problèmes avant qu'ils n'affectent votre entreprise."
+          },
+          {
+            "title": "Support Help Desk",
+            "description": "Un support rapide et fiable pour votre équipe lorsqu'elle a besoin d'aide pour résoudre des problèmes informatiques."
+          },
+          {
+            "title": "Gestion de réseau",
+            "description": "Gestion complète de votre infrastructure réseau, assurant sécurité et performance."
+          },
+          {
+            "title": "Cybersécurité",
+            "description": "Solutions de sécurité complètes pour protéger votre entreprise contre les menaces évolutives."
+          },
+          {
+            "title": "Gestion du Cloud",
+            "description": "Gestion experte de votre infrastructure cloud pour des performances et une rentabilité optimales."
+          },
+          {
+            "title": "Planification stratégique IT",
+            "description": "Planification à long terme pour aligner votre technologie sur vos objectifs d'entreprise."
+          }
+        ]
+      },
+      "process": {
+        "title": "Notre processus de gestion informatique",
+        "subtitle": "Comment nous implémentons et maintenons vos services informatiques gérés",
+        "steps": [
+          {
+            "title": "Évaluation initiale",
+            "description": "Nous effectuons un examen approfondi de votre infrastructure informatique actuelle, identifiant les forces, les faiblesses et les opportunités d'amélioration."
+          },
+          {
+            "title": "Planification stratégique",
+            "description": "Ensemble, nous développons une stratégie informatique personnalisée alignée sur vos objectifs commerciaux et vos contraintes budgétaires."
+          },
+          {
+            "title": "Implémentation",
+            "description": "Notre équipe d'experts déploie les solutions nécessaires tout en minimisant les perturbations de vos opérations commerciales."
+          },
+          {
+            "title": "Gestion continue",
+            "description": "Nous surveillons et gérons de manière proactive vos systèmes informatiques, en assurant une maintenance et des mises à jour régulières."
+          },
+          {
+            "title": "Amélioration continue",
+            "description": "Nous examinons régulièrement les performances, la sécurité et l'efficacité, en apportant des ajustements pour optimiser votre environnement informatique."
+          }
+        ]
+      },
+      "faq": {
+        "title": "Questions fréquemment posées",
+        "subtitle": "Obtenez des réponses aux questions courantes sur nos services informatiques gérés",
+        "items": [
+          {
+            "question": "Avec quelle taille d'entreprise travaillez-vous généralement?",
+            "answer": "Nous travaillons avec des petites et moyennes entreprises de 20 à 300 employés dans diverses industries."
+          },
+          {
+            "question": "Quel est votre temps de réponse aux demandes de support?",
+            "answer": "Notre temps de réponse moyen est inférieur à 15 minutes, les problèmes critiques recevant une attention immédiate."
+          },
+          {
+            "question": "Fournissez-vous un support sur site ou tout est-il à distance?",
+            "answer": "Nous fournissons un support à la fois à distance et sur site en fonction de la nature du problème et de votre contrat de service."
+          },
+          {
+            "question": "Que se passe-t-il si nous avons déjà du personnel informatique?",
+            "answer": "Nous pouvons travailler aux côtés de votre personnel informatique existant, en fournissant une expertise spécialisée ou en gérant des aspects spécifiques de vos besoins informatiques."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Prêt à transformer votre gestion informatique?",
+        "subtitle": "Contactez-nous pour une consultation gratuite et découvrez comment nos services informatiques gérés peuvent bénéficier à votre entreprise.",
+        "button": "Contactez-nous aujourd'hui"
+      }
+    },
+    "coManagedIT": {
+      "hero": {
+        "title": "Services informatiques cogérés",
+        "subtitle": "Renforcez votre équipe informatique",
+        "description": "Associez-vous à Nova Solution pour compléter votre département informatique interne avec notre expertise spécialisée."
+      },
+      "features": {
+        "title": "Avantages de l'informatique cogérée",
+        "subtitle": "La solution parfaite pour les entreprises disposant d'un personnel informatique existant qui ont besoin d'un soutien supplémentaire",
+        "items": [
+          {
+            "title": "Combler les lacunes d'expertise",
+            "description": "Accédez à des compétences et connaissances spécialisées qui pourraient manquer à votre équipe interne."
+          },
+          {
+            "title": "Évolutivité à la demande",
+            "description": "Augmentez facilement le support pendant les périodes chargées ou les projets spéciaux sans embaucher de personnel supplémentaire."
+          },
+          {
+            "title": "Réduire l'épuisement professionnel",
+            "description": "Soulagez votre équipe informatique interne en déchargeant les tâches de routine ou le support après les heures de bureau."
+          },
+          {
+            "title": "Accès à des outils avancés",
+            "description": "Utilisez nos outils de surveillance, de gestion et de sécurité de niveau entreprise sans investissement supplémentaire."
+          },
+          {
+            "title": "Partenariat stratégique",
+            "description": "Gagnez un partenaire stratégique qui peut fournir des conseils sur les technologies émergentes et les meilleures pratiques."
+          },
+          {
+            "title": "Efficacité des coûts",
+            "description": "Réduisez les coûts informatiques globaux tout en améliorant les niveaux de service et les capacités."
+          }
+        ]
+      },
+      "process": {
+        "title": "Comment fonctionne l'informatique cogérée",
+        "subtitle": "Une approche collaborative pour gérer votre infrastructure informatique",
+        "steps": [
+          {
+            "title": "Évaluation des besoins",
+            "description": "Nous rencontrons votre équipe informatique pour comprendre votre configuration actuelle, vos défis et où vous avez besoin de soutien supplémentaire."
+          },
+          {
+            "title": "Définition du service",
+            "description": "Ensemble, nous définissons quelles responsabilités seront gérées par votre équipe et lesquelles par Nova Solution."
+          },
+          {
+            "title": "Intégration",
+            "description": "Nous intégrons nos outils et processus à vos systèmes existants pour assurer une collaboration sans faille."
+          },
+          {
+            "title": "Transfert de connaissances",
+            "description": "Nous partageons connaissances et meilleures pratiques avec votre équipe pour améliorer leurs capacités."
+          },
+          {
+            "title": "Collaboration continue",
+            "description": "Nous maintenons une communication régulière et ajustons notre support à mesure que vos besoins évoluent."
+          }
+        ]
+      },
+      "faq": {
+        "title": "Questions fréquemment posées",
+        "subtitle": "Questions courantes sur nos services informatiques cogérés",
+        "items": [
+          {
+            "question": "Cela remplacera-t-il notre personnel informatique existant?",
+            "answer": "Non, nos services cogérés sont conçus pour compléter et soutenir votre équipe informatique existante, pas pour la remplacer."
+          },
+          {
+            "question": "Pouvons-nous modifier les services que vous fournissez au fil du temps?",
+            "answer": "Absolument. Notre modèle cogéré est flexible et peut évoluer à mesure que vos besoins changent."
+          },
+          {
+            "question": "Comment gérez-vous le transfert des responsabilités?",
+            "answer": "Nous avons développé un processus d'intégration fluide qui comprend une documentation complète, un transfert de connaissances et une transition progressive des responsabilités."
+          },
+          {
+            "question": "Comment notre personnel existant collabore-t-il avec votre équipe?",
+            "answer": "Nous établissons des canaux et des processus de communication clairs pour assurer une collaboration efficace entre notre équipe et la vôtre."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Renforcez vos capacités informatiques",
+        "subtitle": "Découvrez comment nos services informatiques cogérés peuvent améliorer l'efficacité de votre équipe informatique interne.",
+        "button": "Planifier une consultation"
+      }
+    },
+    "cyberSecurity": {
+      "hero": {
+        "title": "Services de cybersécurité",
+        "subtitle": "Protégez votre entreprise contre les menaces évolutives",
+        "description": "Solutions de sécurité complètes pour défendre vos systèmes, vos données et votre réputation contre les cybermenaces."
+      },
+      "features": {
+        "title": "Nos solutions de cybersécurité",
+        "subtitle": "Protection multicouche pour le paysage complexe des menaces actuelles",
+        "items": [
+          {
+            "title": "Détection et réponse aux menaces",
+            "description": "Systèmes avancés pour détecter et neutraliser les menaces avant qu'elles n'affectent votre entreprise."
+          },
+          {
+            "title": "Sécurité des emails",
+            "description": "Protection contre le phishing, les malwares et autres menaces basées sur les emails."
+          },
+          {
+            "title": "Protection des terminaux",
+            "description": "Sécurisez tous les appareils se connectant à votre réseau avec un anti-malware de nouvelle génération."
+          },
+          {
+            "title": "Évaluations de sécurité",
+            "description": "Évaluations régulières de votre posture de sécurité pour identifier et traiter les vulnérabilités."
+          },
+          {
+            "title": "Formation des employés",
+            "description": "Formation à la sensibilisation à la sécurité pour garantir que votre personnel ne devienne pas le maillon faible."
+          },
+          {
+            "title": "Support de conformité",
+            "description": "Aide à respecter les exigences réglementaires et les normes de l'industrie en matière de sécurité des données."
+          }
+        ]
+      },
+      "process": {
+        "title": "Notre approche de sécurité",
+        "subtitle": "Comment nous implémentons et maintenons vos défenses de cybersécurité",
+        "steps": [
+          {
+            "title": "Évaluation de sécurité",
+            "description": "Nous évaluons votre posture de sécurité actuelle, identifiant les vulnérabilités et les lacunes de conformité."
+          },
+          {
+            "title": "Planification stratégique",
+            "description": "Nous développons une stratégie de sécurité complète adaptée à vos risques spécifiques et aux besoins de votre entreprise."
+          },
+          {
+            "title": "Implémentation",
+            "description": "Nous déployons et configurons des solutions de sécurité pour protéger tous les aspects de votre environnement informatique."
+          },
+          {
+            "title": "Surveillance et gestion",
+            "description": "Surveillance continue des menaces et des activités suspectes avec des procédures de réponse rapide."
+          },
+          {
+            "title": "Tests et validation",
+            "description": "Tests de sécurité réguliers pour garantir que vos défenses restent efficaces contre les menaces évolutives."
+          }
+        ]
+      },
+      "faq": {
+        "title": "FAQ sur la cybersécurité",
+        "subtitle": "Réponses aux questions courantes sur nos services de sécurité",
+        "items": [
+          {
+            "question": "Comment restez-vous à jour avec les menaces évolutives?",
+            "answer": "Notre équipe de sécurité suit une formation et une certification continues, et nous maintenons des partenariats avec des fournisseurs de sécurité de premier plan pour accéder au renseignement sur les menaces et aux dernières technologies de protection."
+          },
+          {
+            "question": "Que se passe-t-il si une violation de sécurité est détectée?",
+            "answer": "Nous avons établi des procédures de réponse aux incidents qui incluent le confinement, l'éradication, la récupération et l'examen post-incident pour minimiser les dommages et prévenir les occurrences futures."
+          },
+          {
+            "question": "Offrez-vous des solutions de sécurité spécifiques à la conformité?",
+            "answer": "Oui, nous fournissons des solutions de sécurité spécialisées pour aider les entreprises à répondre à diverses exigences réglementaires, notamment le RGPD, HIPAA, PCI DSS, et plus encore."
+          },
+          {
+            "question": "Comment mesurez-vous l'efficacité des solutions de sécurité?",
+            "answer": "Nous utilisons une combinaison d'évaluations de sécurité régulières, de tests de pénétration et d'indicateurs de performance clés pour mesurer et valider l'efficacité de nos mesures de sécurité."
+          }
+        ]
+      },
+      "cta": {
+        "title": "N'attendez pas qu'une violation se produise",
+        "subtitle": "La sécurité proactive est plus rentable que la récupération. Parlez à nos experts de la protection de votre entreprise dès aujourd'hui.",
+        "button": "Obtenir une évaluation de sécurité"
+      }
+    },
+    "cloud": {
+      "hero": {
+        "title": "Services Cloud",
+        "subtitle": "Transformez votre entreprise avec la technologie cloud",
+        "description": "Solutions cloud sécurisées, fiables et évolutives conçues sur mesure pour les besoins de votre entreprise."
+      },
+      "features": {
+        "title": "Nos solutions cloud",
+        "subtitle": "Services cloud complets pour moderniser votre infrastructure informatique",
+        "items": [
+          {
+            "title": "Migration vers le cloud",
+            "description": "Transition transparente de vos applications, données et infrastructure vers le cloud."
+          },
+          {
+            "title": "Microsoft 365",
+            "description": "Implémentation et gestion de la suite de productivité et de collaboration de Microsoft."
+          },
+          {
+            "title": "Services Azure",
+            "description": "Déploiement et gestion experts des solutions cloud Microsoft Azure."
+          },
+          {
+            "title": "Sécurité cloud",
+            "description": "Mesures de sécurité avancées pour protéger votre environnement cloud contre les menaces."
+          },
+          {
+            "title": "Sauvegarde et reprise après sinistre",
+            "description": "Solutions robustes de sauvegarde et de récupération basées sur le cloud pour assurer la continuité des activités."
+          },
+          {
+            "title": "Optimisation du cloud",
+            "description": "Évaluation et optimisation continues pour maximiser les performances et minimiser les coûts."
+          }
+        ]
+      },
+      "process": {
+        "title": "Notre méthodologie cloud",
+        "subtitle": "Comment nous implémentons et gérons vos services cloud",
+        "steps": [
+          {
+            "title": "Évaluation et planification",
+            "description": "Nous évaluons votre infrastructure actuelle et développons un plan d'adoption du cloud stratégique aligné sur vos objectifs commerciaux."
+          },
+          {
+            "title": "Conception d'architecture",
+            "description": "Nous concevons une architecture cloud qui optimise les performances, la sécurité et la rentabilité pour vos besoins spécifiques."
+          },
+          {
+            "title": "Migration et implémentation",
+            "description": "Nous exécutons une migration soigneusement planifiée pour minimiser les perturbations et garantir l'intégrité des données."
+          },
+          {
+            "title": "Configuration de sécurité",
+            "description": "Nous mettons en œuvre des mesures de sécurité complètes pour protéger votre environnement cloud contre les menaces."
+          },
+          {
+            "title": "Gestion continue",
+            "description": "Nous assurons une surveillance, une maintenance et une optimisation continues de vos services cloud."
+          }
+        ]
+      },
+      "faq": {
+        "title": "FAQ sur les services cloud",
+        "subtitle": "Réponses aux questions courantes sur nos offres cloud",
+        "items": [
+          {
+            "question": "La migration vers le cloud est-elle adaptée à mon entreprise?",
+            "answer": "La plupart des entreprises bénéficient d'au moins une certaine adoption du cloud, mais l'étendue dépend de vos besoins spécifiques. Nous vous aiderons à évaluer quelles applications et charges de travail sont les mieux adaptées au cloud en fonction de facteurs tels que les exigences de performance, les considérations de sécurité et l'analyse des coûts."
+          },
+          {
+            "question": "Le cloud computing est-il sécurisé?",
+            "answer": "Lorsqu'ils sont correctement configurés, les environnements cloud peuvent être plus sécurisés que les solutions sur site. Nous mettons en œuvre les meilleures pratiques de l'industrie pour la sécurité cloud, y compris le chiffrement, les contrôles d'accès, la surveillance des menaces et des évaluations de sécurité régulières."
+          },
+          {
+            "question": "Comment gérez-vous les coûts du cloud?",
+            "answer": "Nous mettons en œuvre des stratégies d'optimisation des coûts, notamment le dimensionnement approprié des ressources, l'utilisation d'instances réservées, l'identification des ressources inactives et la fourniture de rapports d'analyse des coûts réguliers avec des recommandations."
+          },
+          {
+            "question": "Quelles plateformes cloud prenez-vous en charge?",
+            "answer": "Nous nous spécialisons principalement dans Microsoft Azure et Microsoft 365, mais nous pouvons également prendre en charge des environnements multi-cloud, y compris AWS et Google Cloud Platform, en fonction des besoins de votre entreprise."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Prêt à exploiter la puissance du cloud?",
+        "subtitle": "Contactez-nous pour découvrir comment nos solutions cloud peuvent transformer les opérations de votre entreprise.",
+        "button": "Commencez votre voyage cloud"
+      }
     }
   }
 }

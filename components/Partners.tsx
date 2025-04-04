@@ -2,8 +2,11 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
 const Partners = () => {
+    const t = useTranslations('partners');
+
     const fadeInUp = {
         hidden: { opacity: 0, y: 30 },
         visible: { opacity: 1, y: 0, transition: { duration: 0.6 } }
@@ -33,15 +36,13 @@ const Partners = () => {
                         className="lg:col-span-2"
                     >
                         <div className="mb-6">
-                            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Partners</h2>
+                            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">{t('title')}</h2>
                             <div className="h-1 w-20 bg-red-600 my-4"></div>
-                            <h3 className="text-3xl md:text-4xl font-bold text-gray-900">of choice</h3>
+                            <h3 className="text-3xl md:text-4xl font-bold text-gray-900">{t('subtitle')}</h3>
                         </div>
 
                         <p className="text-gray-600 text-lg">
-                            With over 110 employees, NS Technologies is a leading MSP and one of the largest IT &
-                            Cybersecurity Service Providers and Consultants serving the greater Montreal area since
-                            2003. Our around-the-clock monitoring ensures you stay up and running at all times.
+                            {t('description')}
                         </p>
                     </motion.div>
 
@@ -55,37 +56,37 @@ const Partners = () => {
                     >
                         <div className="bg-gradient-to-br from-gray-50 to-white p-6 rounded-lg shadow-md border border-gray-100 relative overflow-hidden">
                             <div className="absolute top-0 right-0 w-20 h-20 bg-red-50 rounded-bl-full opacity-50"></div>
-                            <h3 className="text-xl font-bold text-gray-900 mb-3 relative z-10">Enterprise Partnerships</h3>
+                            <h3 className="text-xl font-bold text-gray-900 mb-3 relative z-10">{t('categories.enterprise.title')}</h3>
                             <div className="h-0.5 w-12 bg-red-600 mb-4"></div>
                             <p className="text-gray-600 relative z-10">
-                                Our strategic alliances with major technology enterprises allow us to implement premier solutions that transform how businesses operate and compete in today's digital world.
+                                {t('categories.enterprise.description')}
                             </p>
                         </div>
 
                         <div className="bg-gradient-to-br from-gray-50 to-white p-6 rounded-lg shadow-md border border-gray-100 relative overflow-hidden">
                             <div className="absolute top-0 right-0 w-20 h-20 bg-red-50 rounded-bl-full opacity-50"></div>
-                            <h3 className="text-xl font-bold text-gray-900 mb-3 relative z-10">Security Leaders</h3>
+                            <h3 className="text-xl font-bold text-gray-900 mb-3 relative z-10">{t('categories.security.title')}</h3>
                             <div className="h-0.5 w-12 bg-red-600 mb-4"></div>
                             <p className="text-gray-600 relative z-10">
-                                Partnerships with leading cybersecurity providers give our clients access to cutting-edge protection against evolving digital threats, safeguarding critical data and systems.
+                                {t('categories.security.description')}
                             </p>
                         </div>
 
                         <div className="bg-gradient-to-br from-gray-50 to-white p-6 rounded-lg shadow-md border border-gray-100 relative overflow-hidden">
                             <div className="absolute top-0 right-0 w-20 h-20 bg-red-50 rounded-bl-full opacity-50"></div>
-                            <h3 className="text-xl font-bold text-gray-900 mb-3 relative z-10">Cloud Innovators</h3>
+                            <h3 className="text-xl font-bold text-gray-900 mb-3 relative z-10">{t('categories.cloud.title')}</h3>
                             <div className="h-0.5 w-12 bg-red-600 mb-4"></div>
                             <p className="text-gray-600 relative z-10">
-                                Our cloud partnerships enable businesses to seamlessly migrate, manage, and optimize their environments with unmatched reliability, scalability, and cost-effectiveness.
+                                {t('categories.cloud.description')}
                             </p>
                         </div>
 
                         <div className="bg-gradient-to-br from-gray-50 to-white p-6 rounded-lg shadow-md border border-gray-100 relative overflow-hidden">
                             <div className="absolute top-0 right-0 w-20 h-20 bg-red-50 rounded-bl-full opacity-50"></div>
-                            <h3 className="text-xl font-bold text-gray-900 mb-3 relative z-10">Infrastructure Experts</h3>
+                            <h3 className="text-xl font-bold text-gray-900 mb-3 relative z-10">{t('categories.infrastructure.title')}</h3>
                             <div className="h-0.5 w-12 bg-red-600 mb-4"></div>
                             <p className="text-gray-600 relative z-10">
-                                Collaborations with top hardware manufacturers allow us to design and deploy robust, future-proof infrastructure that forms the backbone of modern IT operations.
+                                {t('categories.infrastructure.description')}
                             </p>
                         </div>
                     </motion.div>

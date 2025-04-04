@@ -7,7 +7,7 @@ import { useLocale } from 'next-intl';
 import Link from 'next/link';
 
 const Services = () => {
-    const t = useTranslations('services');
+    const t = useTranslations('homeservices');
     const locale = useLocale();
 
     const fadeInUp = {
@@ -24,7 +24,6 @@ const Services = () => {
             }
         }
     };
-
 
     const serviceCards = [
         {
@@ -66,9 +65,9 @@ const Services = () => {
         },
         {
             id: 'security',
-            title: 'Cyber-Security',
-            description: 'Increasingly, Quebec\'s small and medium sized businesses are the target of cyber attacks. At NS, cybersecurity is at the heart of everything we do. Our dedicated IT Security team ensures your peace of mind by monitoring and reacting to any potential threats.',
-            cta: 'LEARN MORE',
+            title: t('security.title'),
+            description: t('security.description'),
+            cta: t('security.cta'),
             icon: (
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-red-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
@@ -82,9 +81,9 @@ const Services = () => {
         },
         {
             id: 'cloud',
-            title: 'Cloud Services',
-            description: 'Get all the benefits of the cloud with the utmost confidence and security. NS technologies is a top tier Microsoft certified partner, specializing in Microsoft 365 and Azure. We have the expertise and resources to manage your cloud solutions.',
-            cta: 'LEARN MORE',
+            title: t('cloud.title'),
+            description: t('cloud.description'),
+            cta: t('cloud.cta'),
             icon: (
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-red-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
@@ -116,8 +115,8 @@ const Services = () => {
             <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 <motion.div
                     initial="hidden"
-                    whileInView="visible"
-                    viewport={{ once: true, margin: "-100px" }}
+                    animate="visible"
+                    // viewport={{ once: true, margin: "-100px" }}
                     variants={fadeInUp}
                     className="text-center mb-16"
                 >
@@ -132,8 +131,8 @@ const Services = () => {
                 <motion.div
                     variants={staggerContainer}
                     initial="hidden"
-                    whileInView="visible"
-                    viewport={{ once: true, margin: "-50px" }}
+                    animate="visible"
+                    // viewport={{ once: true, margin: "-50px" }}
                     className="grid md:grid-cols-2 gap-8 xl:gap-10"
                 >
                     {serviceCards.map((card, index) => (

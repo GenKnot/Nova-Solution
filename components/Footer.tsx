@@ -3,98 +3,75 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { useLocale } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 
 const Footer = () => {
     const locale = useLocale();
+    const t = useTranslations('footer');
     const currentYear = new Date().getFullYear();
 
-    // Navigation categories
-    const navCategories = [
+
+    const footerLinks = [
         {
-            title: 'Services',
+            title: t('categories.services'),
             links: [
-                { name: 'Managed IT Services', href: `/services/managed-it` },
-                { name: 'Co-Managed IT Services', href: `/services/co-managed-it` },
-                { name: 'Cyber-Security', href: `/services/cyber-security` },
-                { name: 'Cloud Services', href: `/services/cloud` }
+                { name: t('links.managedIT'), href: `/services/managed-it` },
+                { name: t('links.coManagedIT'), href: `/services/co-managed-it` },
+                { name: t('links.cyberSecurity'), href: `/services/cyber-security` },
+                { name: t('links.cloudServices'), href: `/services/cloud` }
             ]
         },
         {
-            title: 'Resources',
+            title: t('categories.about'),
             links: [
-                { name: 'Career', href: `/career` },
-                { name: 'The ns Blog', href: `/blog` },
-                { name: 'Site Map', href: `/site-map` },
-                { name: 'Service provider checklist', href: `/checklist` },
-                { name: 'Privacy Policy', href: `/privacy-policy` }
-            ]
-        },
-        {
-            title: 'About',
-            links: [
-                { name: 'FAQ', href: `/faq` },
-                { name: 'Contact', href: `/contact` },
-                { name: 'Client Portal', href: 'https://portal.nstech.com', external: true }
+                { name: t('links.faq'), href: `/#faq` },
+                { name: t('links.contact'), href: `/#contact` }
             ]
         }
     ];
 
     return (
-        <footer className="bg-gray-900 text-gray-300">
-            {/* Main footer content */}
-            <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
-                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-                    {/* Company info */}
-                    <div className="lg:col-span-1">
-                        <div className="mb-6">
-                            <Image
-                                src="/ns-logo-white.svg"
-                                alt="Nova Solution"
-                                width={120}
-                                height={48}
-                                className="mb-4"
-                            />
-                            <p className="text-sm mt-4">
-                                Since 2003, NS Technologies has accumulated expertise in managing a wide range of networks, infrastructures and applications.
-                            </p>
-                        </div>
+        <footer className="bg-gradient-to-b from-gray-900 to-gray-950 text-gray-300">
 
-                        <div className="mt-8">
-                            <h3 className="text-lg font-semibold mb-3">Contact</h3>
-                            <div className="space-y-2 text-sm">
-                                <p>514.xxx-xxxx</p>
-                                <p>info@novasolution.ca</p>
-                                <p>Canada</p>
-                                <p>Montréal, QC H3C 3R7</p>
-                            </div>
+            <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+                <div className="grid md:grid-cols-12 gap-8">
+
+                    <div className="md:col-span-4">
+                        <Image
+                            src="/ns-logo-white.svg"
+                            alt="Nova Solution"
+                            width={140}
+                            height={56}
+                            className="mb-4"
+                        />
+                        <p className="text-sm text-gray-400 mt-4 pr-4">
+                            {t('company.description')}
+                        </p>
+
+
+                        <div className="mt-6">
+                            <h3 className="text-sm font-semibold uppercase tracking-wider mb-2">{t('company.contact')}</h3>
+                            <p className="text-sm text-gray-400">{t('company.phone')}</p>
+                            <p className="text-sm text-gray-400">{t('company.email')}</p>
+                            <p className="text-sm text-gray-400 mt-1">{t('company.address')}, {t('company.country')}</p>
                         </div>
                     </div>
 
-                    {/* Navigation links */}
-                    {navCategories.map((category, idx) => (
-                        <div key={idx}>
-                            <h3 className="text-lg font-semibold mb-4">{category.title}</h3>
+
+                    <div className="hidden md:block md:col-span-2"></div>
+
+                    {footerLinks.map((category, idx) => (
+                        <div key={idx} className="md:col-span-3">
+                            <h3 className="text-sm font-semibold uppercase tracking-wider mb-4">{category.title}</h3>
                             <ul className="space-y-2">
                                 {category.links.map((link, linkIdx) => (
                                     <li key={linkIdx}>
-                                        {link.external ? (
-                                            <a
-                                                href={link.href}
-                                                className="text-sm hover:text-white transition-colors"
-                                                target="_blank"
-                                                rel="noopener noreferrer"
-                                            >
-                                                {link.name}
-                                            </a>
-                                        ) : (
-                                            <Link
-                                                href={`/${locale}${link.href}`}
-                                                className="text-sm hover:text-white transition-colors"
-                                            >
-                                                {link.name}
-                                            </Link>
-                                        )}
+                                        <Link
+                                            href={`/${locale}${link.href}`}
+                                            className="text-sm text-gray-400 hover:text-white transition-colors"
+                                        >
+                                            {link.name}
+                                        </Link>
                                     </li>
                                 ))}
                             </ul>
@@ -103,10 +80,11 @@ const Footer = () => {
                 </div>
             </div>
 
-            {/* Copyright */}
-            <div className="bg-gray-950 py-4">
-                <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm">
-                    <p>© {currentYear} Nova Solution. All rights reserved.</p>
+            <div className="border-t border-gray-800">
+                <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
+                    <p className="text-center text-xs text-gray-500">
+                        {t('copyright', { year: currentYear })}
+                    </p>
                 </div>
             </div>
         </footer>

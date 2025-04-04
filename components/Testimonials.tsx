@@ -3,63 +3,14 @@
 import React from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import { useLocale } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import Link from 'next/link';
 
 const Testimonials = () => {
     const locale = useLocale();
+    const t = useTranslations('testimonials');
 
-    const testimonials = [
-        {
-            id: 1,
-            company: 'CONTEX',
-            logo: '/contex-logo.png',
-            quote: 'Our 110 employees are very satisfied with the managed services of Nova Solution Technologies. The response time is very fast and the technicians are competent. In addition, as Controller, I particularly appreciate the complete IT Plan as well as the detailed IT budget of Nova Solution.',
-            author: 'Jean-Sébastien Haché',
-            title: 'Controller'
-        },
-        {
-            id: 2,
-            company: 'protégez-vous',
-            logo: '/protegez-vous-logo.png',
-            quote: 'Nova Solution provides an invaluable consulting service as well as peace of mind in the day-to-day management of our IT environment and in the continuous improvement of our systems.',
-            author: 'Anissa Zougarri',
-            title: 'Director of human capital & administration'
-        },
-        {
-            id: 3,
-            company: 'Le Groupe Maurice',
-            logo: '/groupe-maurice-logo.png',
-            quote: 'We appreciate Nova Solution\'s proactive approach to cybersecurity and their ability to adapt to our changing needs. Their support has been crucial for our business operations.',
-            author: 'Michel Laurent',
-            title: 'CIO'
-        },
-        {
-            id: 4,
-            company: 'Avocats Montréal',
-            logo: '/avocats-mtl-logo.png',
-            quote: 'Nova Solution Technologies has transformed how our law firm manages sensitive client data. Their cybersecurity protocols give us complete confidence in our digital infrastructure.',
-            author: 'Sophie Tremblay',
-            title: 'Managing Partner'
-        },
-        {
-            id: 5,
-            company: 'BioTech Québec',
-            logo: '/biotech-logo.png',
-            quote: 'The migration to cloud services led by Nova Solution has improved our collaborative capabilities tenfold. Their expertise with Microsoft 365 and Azure is outstanding.',
-            author: 'Pierre Leblanc',
-            title: 'Operations Director'
-        },
-        {
-            id: 6,
-            company: 'Finance Solutions',
-            logo: '/finance-solutions-logo.png',
-            quote: 'As a financial institution, we need absolute reliability in our IT systems. Nova Solution has delivered beyond our expectations, providing 24/7 monitoring and rapid response to any issues.',
-            author: 'Marie Côté',
-            title: 'CFO'
-        }
-    ];
-
+    const testimonials = t.raw('items');
 
     const containerVariants = {
         hidden: { opacity: 0 },
@@ -96,7 +47,7 @@ const Testimonials = () => {
 
             <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 <div className="text-center mb-12">
-                    <h2 className="text-3xl md:text-4xl font-bold uppercase">Our Satisfied Customers</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold uppercase">{t('title')}</h2>
                 </div>
 
                 <motion.div
@@ -106,9 +57,9 @@ const Testimonials = () => {
                     viewport={{ once: true, margin: "-100px" }}
                     className="grid md:grid-cols-2 lg:grid-cols-3 gap-6"
                 >
-                    {testimonials.map((testimonial) => (
+                    {testimonials.map((testimonial: any, index: number) => (
                         <motion.div
-                            key={testimonial.id}
+                            key={index}
                             variants={cardVariants}
                             className="bg-white rounded-lg p-6 text-gray-800 shadow-lg flex flex-col h-full"
                         >

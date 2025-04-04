@@ -2,11 +2,12 @@
 
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { useLocale } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import Link from 'next/link';
 
 const FAQ = () => {
     const locale = useLocale();
+    const t = useTranslations('faq');
     const [openQuestion, setOpenQuestion] = useState<number | null>(null);
 
     const toggleQuestion = (index: number) => {
@@ -19,33 +20,7 @@ const FAQ = () => {
         visible: { opacity: 1, y: 0, transition: { duration: 0.6 } }
     };
 
-
-    const faqItems = [
-        {
-            question: 'How long have you been in business?',
-            answer: 'Nova Solution Technologies has been providing IT services to Quebec businesses since 2003. With over 20 years of experience, we have developed deep expertise in managed IT services, cybersecurity, and cloud solutions tailored to the unique needs of small and medium-sized businesses.'
-        },
-        {
-            question: 'What\'s a typical client for Nova Solution?',
-            answer: 'Our typical clients are small to medium-sized businesses with 20-300 employees across various industries in Quebec. We specialize in serving businesses that need comprehensive IT support but may not have the resources for a full in-house IT department, or those looking to complement their existing IT team with specialized expertise.'
-        },
-        {
-            question: 'What are your services?',
-            answer: 'We offer a comprehensive range of IT services including Managed IT Services for businesses without an IT team, Co-Managed IT Services to complement existing IT departments, Cybersecurity solutions to protect against modern threats, and Cloud Services with expertise in Microsoft 365 and Azure. Each service can be tailored to meet your specific business needs.'
-        },
-        {
-            question: 'What areas do you serve?',
-            answer: 'We primarily serve businesses in Greater Montreal and throughout Quebec. Our team can provide on-site support within these regions while also offering remote services to clients across the province.'
-        },
-        {
-            question: 'How do you handle IT emergencies?',
-            answer: 'We provide 24/7 emergency support for critical issues. Our team has established response protocols and guaranteed response times based on the severity of the issue. For clients with managed service agreements, we proactively monitor systems to prevent many emergencies before they occur.'
-        },
-        {
-            question: 'What makes Nova Solution different from other IT service providers?',
-            answer: 'Nova Solution Technologies stands out through our strategic approach to IT, focusing on both immediate support needs and long-term planning. We offer detailed IT roadmaps and budgets, industry-leading cybersecurity expertise, and a team of certified professionals with experience across diverse business environments. Our 97% client retention rate speaks to our commitment to excellence and customer satisfaction.'
-        }
-    ];
+    const faqItems = t.raw('items');
 
     return (
         <section id="faq" className="relative py-16 md:py-24 bg-gray-50 overflow-hidden">
@@ -92,7 +67,7 @@ const FAQ = () => {
                     variants={fadeInUp}
                     className="text-center mb-12"
                 >
-                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Frequently Asked Questions</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900">{t('title')}</h2>
                     <div className="h-1 w-24 bg-red-600 mx-auto mt-4"></div>
                 </motion.div>
 
@@ -103,7 +78,7 @@ const FAQ = () => {
                     variants={fadeInUp}
                     className="max-w-3xl mx-auto bg-white rounded-xl shadow-md overflow-hidden"
                 >
-                    {faqItems.map((item, index) => (
+                    {faqItems.map((item: any, index: number) => (
                         <div
                             key={index}
                             className={`border-b border-gray-100 last:border-b-0 ${openQuestion === index ? 'bg-gray-50' : ''}`}
