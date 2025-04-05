@@ -17,8 +17,8 @@
   },
   "homeservices": {
     "msp": {
-      "title": "Le plus grand fournisseur de services informatiques du Grand Montréal",
-      "subtitle": "Depuis 2024, Nova Solution est un leader dans les services informatiques pour les petites et moyennes entreprises du Québec."
+      "title": "Fournisseur de services informatiques de premier plan dans l'Est du Canada",
+      "subtitle": "Nova Solution fournit des services informatiques innovants adaptés aux entreprises à travers le Québec et au-delà."
     },
     "managed": {
       "title": "Services informatiques gérés",
@@ -32,7 +32,7 @@
     },
     "security": {
       "title": "Cybersécurité",
-      "description": "De plus en plus, les petites et moyennes entreprises du Québec sont la cible de cyberattaques. Chez Nova Solution, la cybersécurité est au cœur de tout ce que nous faisons. Notre équipe dédiée à la sécurité informatique assure votre tranquillité d'esprit en surveillant et en réagissant à toute menace potentielle.",
+      "description": "Dans le paysage numérique actuel, les entreprises font face à des menaces cybernétiques croissantes. Chez Nova Solution, la cybersécurité est au cœur de tout ce que nous faisons. Notre équipe dédiée à la sécurité informatique assure votre tranquillité d'esprit en surveillant et en réagissant à toute menace potentielle.",
       "cta": "EN SAVOIR PLUS"
     },
     "cloud": {
@@ -45,47 +45,47 @@
     "title": "Nos clients satisfaits",
     "items": [
       {
-        "company": "CONTEX",
-        "quote": "Nos 110 employés sont très satisfaits des services gérés de Nova Solution Technologies. Le temps de réponse est très rapide et les techniciens sont compétents. De plus, en tant que contrôleur, j'apprécie particulièrement le plan informatique complet ainsi que le budget informatique détaillé de Nova Solution.",
-        "author": "Jean-Sébastien Haché",
-        "title": "Contrôleur"
+        "company": "Entreprise de fabrication à Montréal",
+        "quote": "Notre équipe est très satisfaite des services gérés de Nova Solution Technologies. Le temps de réponse est très rapide et les techniciens sont compétents. J'apprécie particulièrement le plan informatique complet ainsi que le budget informatique détaillé de Nova Solution.",
+        "author": "Contrôleur",
+        "title": "Montréal"
       },
       {
-        "company": "protégez-vous",
+        "company": "Organisation de protection des consommateurs",
         "quote": "Nova Solution fournit un service de conseil inestimable ainsi qu'une tranquillité d'esprit dans la gestion quotidienne de notre environnement informatique et dans l'amélioration continue de nos systèmes.",
-        "author": "Anissa Zougarri",
-        "title": "Directrice du capital humain et de l'administration"
+        "author": "Directrice de l'administration",
+        "title": "Ville de Québec"
       },
       {
-        "company": "Le Groupe Maurice",
+        "company": "Groupe de développement de résidences seniors",
         "quote": "Nous apprécions l'approche proactive de Nova Solution en matière de cybersécurité et sa capacité à s'adapter à nos besoins changeants. Leur soutien a été crucial pour nos opérations commerciales.",
-        "author": "Michel Laurent",
-        "title": "DSI"
+        "author": "DSI",
+        "title": "Montréal"
       },
       {
-        "company": "Avocats Montréal",
+        "company": "Cabinet d'avocats",
         "quote": "Nova Solution Technologies a transformé la façon dont notre cabinet d'avocats gère les données sensibles des clients. Leurs protocoles de cybersécurité nous donnent une confiance totale dans notre infrastructure numérique.",
-        "author": "Sophie Tremblay",
-        "title": "Associée directrice"
+        "author": "Associée directrice",
+        "title": "Montréal"
       },
       {
-        "company": "BioTech Québec",
+        "company": "Entreprise de biotechnologie",
         "quote": "La migration vers les services cloud dirigée par Nova Solution a amélioré nos capacités de collaboration par dix. Leur expertise avec les technologies cloud est exceptionnelle.",
-        "author": "Pierre Leblanc",
-        "title": "Directeur des opérations"
+        "author": "Directeur des opérations",
+        "title": "Québec"
       },
       {
-        "company": "Finance Solutions",
+        "company": "Institution financière",
         "quote": "En tant qu'institution financière, nous avons besoin d'une fiabilité absolue dans nos systèmes informatiques. Nova Solution a dépassé nos attentes, fournissant une surveillance 24/7 et une réponse rapide à tout problème.",
-        "author": "Marie Côté",
-        "title": "Directrice financière"
+        "author": "Directrice financière",
+        "title": "Cantons de l'Est"
       }
     ]
   },
   "partners": {
     "title": "Partenaires",
     "subtitle": "de choix",
-    "description": "Avec plus de 100 employés, Nova Solution est un fournisseur de services informatiques de premier plan desservant la région du Grand Montréal depuis 2024. Notre surveillance 24/7 garantit que vos systèmes restent opérationnels en tout temps.",
+    "description": "Nova Solution est un fournisseur de services informatiques de premier plan desservant l'Est du Canada. Notre surveillance 24/7 garantit que vos systèmes restent opérationnels en tout temps avec un support expert quand vous en avez le plus besoin.",
     "categories": {
       "enterprise": {
         "title": "Partenariats d'entreprise",
@@ -110,11 +110,11 @@
     "items": [
       {
         "question": "Depuis combien de temps êtes-vous en activité?",
-        "answer": "Nova Solution Technologies fournit des services informatiques aux entreprises québécoises depuis 2024. Avec plus de 20 ans d'expérience, nous avons développé une expertise approfondie dans les services informatiques gérés, la cybersécurité et les solutions cloud adaptées aux besoins uniques des petites et moyennes entreprises."
+        "answer": "Nova Solution Technologies fournit des services informatiques aux entreprises à travers l'Est du Canada. Notre équipe apporte une vaste expertise dans les services informatiques gérés, la cybersécurité et les solutions cloud adaptées aux besoins uniques des entreprises de toutes tailles."
       },
       {
         "question": "Quel est un client typique pour Nova Solution?",
-        "answer": "Nos clients typiques sont des petites et moyennes entreprises de 20 à 300 employés dans diverses industries au Québec. Nous nous spécialisons dans le service aux entreprises qui ont besoin d'un support informatique complet mais qui n'ont peut-être pas les ressources pour un département informatique interne complet, ou celles qui cherchent à compléter leur équipe informatique existante avec une expertise spécialisée."
+        "answer": "Nos clients couvrent diverses industries à travers l'Est du Canada. Nous nous spécialisons dans le service aux entreprises qui ont besoin d'un support informatique complet mais qui n'ont peut-être pas les ressources pour un département informatique interne complet, ou celles qui cherchent à compléter leur équipe informatique existante avec une expertise spécialisée."
       },
       {
         "question": "Quels sont vos services?",

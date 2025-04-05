@@ -17,8 +17,8 @@
   },
   "homeservices": {
     "msp": {
-      "title": "The largest IT service provider in Greater Montreal",
-      "subtitle": "Since 2024, Nova Solution has been a leader in IT services for Quebec's small and medium sized businesses."
+      "title": "Premier IT service provider in Eastern Canada",
+      "subtitle": "Nova Solution provides innovative IT services tailored for businesses across Quebec and beyond."
     },
     "managed": {
       "title": "Managed IT Services",
@@ -32,7 +32,7 @@
     },
     "security": {
       "title": "Cyber-Security",
-      "description": "Increasingly, Quebec's small and medium sized businesses are targets of cyber attacks. At Nova Solution, cybersecurity is at the heart of everything we do. Our dedicated IT Security team ensures your peace of mind by monitoring and responding to potential threats.",
+      "description": "In today's digital landscape, businesses face increasing cyber threats. At Nova Solution, cybersecurity is at the heart of everything we do. Our dedicated IT Security team ensures your peace of mind by monitoring and responding to potential threats.",
       "cta": "LEARN MORE"
     },
     "cloud": {
@@ -45,47 +45,47 @@
     "title": "Our Satisfied Customers",
     "items": [
       {
-        "company": "CONTEX",
-        "quote": "Our 110 employees are very satisfied with the managed services of Nova Solution Technologies. The response time is very fast and the technicians are competent. In addition, as Controller, I particularly appreciate the complete IT Plan as well as the detailed IT budget of Nova Solution.",
-        "author": "Jean-Sébastien Haché",
-        "title": "Controller"
+        "company": "Manufacturing Company",
+        "quote": "Our team is very satisfied with the managed services of Nova Solution Technologies. The response time is very fast and the technicians are competent. I particularly appreciate the complete IT Plan as well as the detailed IT budget of Nova Solution.",
+        "author": "Controller",
+        "title": "Montreal"
       },
       {
-        "company": "protégez-vous",
+        "company": "Consumer Rights Organization",
         "quote": "Nova Solution provides an invaluable consulting service as well as peace of mind in the day-to-day management of our IT environment and in the continuous improvement of our systems.",
-        "author": "Anissa Zougarri",
-        "title": "Director of human capital & administration"
+        "author": "Director of Administration",
+        "title": "Quebec City"
       },
       {
-        "company": "Le Groupe Maurice",
+        "company": "Senior Living Development Group",
         "quote": "We appreciate Nova Solution's proactive approach to cybersecurity and their ability to adapt to our changing needs. Their support has been crucial for our business operations.",
-        "author": "Michel Laurent",
-        "title": "CIO"
+        "author": "CIO",
+        "title": "Montreal"
       },
       {
-        "company": "Avocats Montréal",
+        "company": "Law Firm",
         "quote": "Nova Solution Technologies has transformed how our law firm manages sensitive client data. Their cybersecurity protocols give us complete confidence in our digital infrastructure.",
-        "author": "Sophie Tremblay",
-        "title": "Managing Partner"
+        "author": "Managing Partner",
+        "title": "Montreal"
       },
       {
-        "company": "BioTech Québec",
+        "company": "Biotechnology Company",
         "quote": "The migration to cloud services led by Nova Solution has improved our collaborative capabilities tenfold. Their expertise with cloud technologies is outstanding.",
-        "author": "Pierre Leblanc",
-        "title": "Operations Director"
+        "author": "Operations Director",
+        "title": "Quebec"
       },
       {
-        "company": "Finance Solutions",
+        "company": "Financial Institution",
         "quote": "As a financial institution, we need absolute reliability in our IT systems. Nova Solution has delivered beyond our expectations, providing 24/7 monitoring and rapid response to any issues.",
-        "author": "Marie Côté",
-        "title": "CFO"
+        "author": "CFO",
+        "title": "Eastern Townships"
       }
     ]
   },
   "partners": {
     "title": "Partners",
     "subtitle": "of choice",
-    "description": "With over 100 employees, Nova Solution is a leading IT service provider serving the greater Montreal area since 2024. Our around-the-clock monitoring ensures your systems stay operational at all times.",
+    "description": "Nova Solution is a leading IT service provider serving Eastern Canada. Our around-the-clock monitoring ensures your systems stay operational at all times with expert support when you need it most.",
     "categories": {
       "enterprise": {
         "title": "Enterprise Partnerships",
@@ -110,11 +110,11 @@
     "items": [
       {
         "question": "How long have you been in business?",
-        "answer": "Nova Solution Technologies has been providing IT services to Quebec businesses since 2024. With over 20 years of experience, we have developed deep expertise in managed IT services, cybersecurity, and cloud solutions tailored to the unique needs of small and medium-sized businesses."
+        "answer": "Nova Solution Technologies has been providing IT services to businesses throughout Eastern Canada. Our team brings extensive expertise in managed IT services, cybersecurity, and cloud solutions tailored to the unique needs of businesses of all sizes."
       },
       {
         "question": "What's a typical client for Nova Solution?",
-        "answer": "Our typical clients are small to medium-sized businesses with 20-300 employees across various industries in Quebec. We specialize in serving businesses that need comprehensive IT support but may not have the resources for a full in-house IT department, or those looking to complement their existing IT team with specialized expertise."
+        "answer": "Our clients span various industries across Eastern Canada. We specialize in serving businesses that need comprehensive IT support but may not have the resources for a full in-house IT department, or those looking to complement their existing IT team with specialized expertise."
       },
       {
         "question": "What are your services?",
